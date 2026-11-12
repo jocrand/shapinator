@@ -8,6 +8,7 @@ class Collection:
 
     def add_shape(self, shape):
         self.shapes.append(shape)
+        print("Shape successfully added.")
 
     def display_collection(self):
         if len(self.shapes) > 0:

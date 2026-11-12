@@ -19,9 +19,14 @@ def main():
 
         match choice:
             case 1: # add a circle
-                c.add_shape()
+                rad = float(input("OK, choose a radius: "))
+                new_circ = cir.Circle(rad)
+                c.add_shape(new_circ)
             case 2: # add a rectangle
-                print('hi')
+                w = float(input("OK, choose a width: "))
+                h = float(input("Choose a height: "))
+                new_rec = rec.Rectangle(w, h)
+                c.add_shape(new_rec)
             case 3: # see collection
                 print('hi')
             case 4: # end
