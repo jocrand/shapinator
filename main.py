@@ -2,6 +2,7 @@
 It imports the square module and the circle module."""
 
 import rectangle as rt
+import circle as cl
 
 def main():
     print('hi')
