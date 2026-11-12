@@ -1,11 +1,38 @@
 """This is the main file that the user will run.
 It imports the square module and the circle module."""
 
-import rectangle as rt
-import circle as cl
+import rectangle as rec
+import circle as cir
+import collection as col
+import menu
+import time   # for time.sleep() to control timing of display
 
 def main():
-    print('hi')
+
+    print("\n\nWelcome to Shapinator!\n")
+    c = col.Collection()
+    
+    play = True
+    while play:
+        menu.display_options()
+        choice = int(menu.get_user_choice())
+
+        match choice:
+            case 1: # add a circle
+                c.add_shape()
+            case 2: # add a rectangle
+                print('hi')
+            case 3: # see collection
+                print('hi')
+            case 4: # end
+                play = False
+                time.sleep(0.5)
+                print("\n\nThanks for playing!\n\n")
+                time.sleep(0.5)
+                
+        
+            
+
     
 
 
