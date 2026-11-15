@@ -2,15 +2,12 @@
 Fun with shapes!
 
 ### User guide:
-Clone this repo or download the files in this repository:
+Clone this repo -or- download the files from this repository:
 * main.py
-* rectangle.py
-* circle.py
-* collection.py
-* menu.py
+* shapinator_utils.py
 
 To run:
 python main.py
 
 ### Optional:
-Use test_shapes.py to test the performance of units inside the classes.
+Use test_shapinator.py to test the behavior of the classes.

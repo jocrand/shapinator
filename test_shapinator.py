@@ -4,9 +4,10 @@ without cluttering our main.py file.
 
 In a large project with many formal tests, you would have multiple test files that live in their own folder."""
 
-import rectangle as rt
-import circle as cl
-import collection as ct
+# import rectangle as rt
+from shapinator_utils import Rectangle as rt
+from shapinator_utils import Circle as cl
+from shapinator_utils import Collection as ct
 
 ##### TEST OUT THE RECTANGLE CLASS #####
 shape1 = rt.Rectangle()  # test Rectangle object with no args
